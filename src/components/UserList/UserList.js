@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const UserList = () => {
+import UserItem from '../UserItem/UserItem';
+
+const UserList = (props) => {
   return (
-    <div>UserList</div>
+    <div className='userList'>
+      <UserItem userList={props.userList} />
+    </div>
   )
 }
 
