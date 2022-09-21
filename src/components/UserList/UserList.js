@@ -4,8 +4,8 @@ import UserItem from '../UserItem/UserItem';
 
 const UserList = (props) => {
   return (
-    <div>
-      <UserItem />
+    <div className='userList'>
+      <UserItem userList={props.userList} />
     </div>
   )
 }

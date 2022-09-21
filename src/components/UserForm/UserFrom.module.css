@@ -1,0 +1,29 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  border: 1px solid rgb(148, 142, 142);
+  width: 500px;
+  height: 400px;
+  border-radius: 15px;
+  background: rgb(245,4,243);
+  background: linear-gradient(90deg, rgba(245,4,243,1) 0%, rgba(88,9,121,1) 50%, rgba(98,0,255,1) 100%);
+  color: #eee;
+  box-shadow: 0 0 10px rgba(0,0,0,0.26);
+
+}
+
+form label {
+  box-shadow: 0 0 10px rgba(0,0,0,0.26);
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+form input {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  text-align: center;
+}
